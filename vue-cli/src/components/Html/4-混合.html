@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.min.js"></script>
+</head>
+<body>
+   <div id="app">
+       <input type="button" value="show" @click="show">
+       {{title}}
+   </div>
+   <script>
+       //Vue.prototype.$api=api
+       /*
+       混合后属性和方法名重复
+       钩子先执行混合对象的，再执行vue实例
+       方法只执行vue实例的
+       */
+       var mix={
+           data:{
+               title:'mix title'
+           },
+           created(){
+             alert('mix crated')
+           },
+           methods:{
+               show(){
+                   alert('mix show')
+               }
+           }
+       }
+       new Vue({
+           mixins:[mix],
+           el:'#app',
+           data:{
+               title:'app title'
+           },
+           created(){
+               alert('app crated')
+               //this.$api
+           },
+           methods:{
+               show(){
+                   alert('app show')
+               }
+           }
+       })
+   </script>
+</body>
+</html>

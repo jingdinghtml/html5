@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.min.js"></script>
+</head>
+<body>
+   <div id="app">
+       <input type="button" value="show" @click="show">
+   </div>
+   <script>
+       /*使用混合对象*/
+       var mix={
+           methods:{
+               show(){
+                   alert('mix');
+               }
+           }
+       }
+       /*全局混合 ,所有的vue实例*/
+       Vue.mixin({
+            created(){
+                alert('全局混合')
+            }
+       })
+       new Vue({
+           mixins:[mix],/*局部*/
+           el:'#app'
+       })
+   </script>
+</body>
+</html>

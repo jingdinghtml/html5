@@ -1,0 +1,70 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8" %>
+
+<link rel="stylesheel" type="text/css" href="styles.css">
+change() 一定时间内更新图像
+
+<script type="text/javascript">
+  function change () {
+    var t = new Date().getTime();
+    document.getElementById("checkimgcode").src="ImageServlet?t=" + t;
+  }
+</script>
+
+验证码
+
+后台接口
+checkCode: `${base}/validatecode.jsp`
+
+export const checkCodeUrl = api.checkCode
+
+export const login = data => {
+  return axios.post(api.login, qs.stringify(data))
+}
+export const login = function (data) {
+  return axios.post(api.login, qs.stringify(data))
+}
+
+login (data) {
+  var c = axios.post(api.login, qs.stringify(data))
+  return c;
+}
+
+data一般是一个对象，而登录提交数据时，需要的是字符串，把对象转换成字符串 post传输更加安全
+axios.post(api.login, qs.stringify(data))
+
+配置支持cookie
+axios.defaults.withCredentials = true;
+
+changeImg () {
+  this.codeUrl = checkCodeUrl+'?' + Date.now()
+}
+
+axios.interceptors.response.use(function(res){
+
+})
+
+router.beforeEach((to, from, next) => {
+
+})
+
+对象
+var ids = []
+this.sels.map(function(item){
+  ids.push(item.id)
+})
+
+字符串
+var ids = this.sels.map(function(item){
+  return item.id
+}).toString()
+
+Vue.prototype.$login = login () {}
+
+this.$api
+
+new.Date().toLocaleString()
+this.message = this.message.split('').reverse().join('')
+
+Vue.component('todo-item', {
+  template: '<li>这是个</li>'
+})
