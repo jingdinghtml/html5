@@ -1,0 +1,18 @@
+<view class="connect">
+  <image class="logo" src="../../images/logo.jpeg"></image>
+  <view class="item">
+    <image src="../../images/icon-address.png"></image>
+    <text>北京市昌平区郑平路宏福科技园综合楼6层</text>
+    <image src="../../images/icon-right.png"></image>
+  </view>
+  <view class="item">
+    <image src="../../images/icon-phone.png"></image>
+    <text>400-825-1689</text>
+    <image src="../../images/icon-right.png"></image>
+  </view>
+  <view class="item">
+    <image src="../../images/icon-wechat.png"></image>
+    <text>野狼营IT教育</text>
+    <view class="now">立即咨询</view>
+  </view>
+</view>

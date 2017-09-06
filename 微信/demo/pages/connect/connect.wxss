@@ -1,0 +1,44 @@
+.connect{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+}
+.connect .logo{
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  display: block;
+}
+.connect .item{
+  font-size: 32rpx;
+  color: #666666;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  margin:0 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #F7F7F7;
+  align-items: center;
+  position: relative;
+}
+.connect .item image{
+  width: 28px;
+  height: 28px;
+}
+.connect .item text{
+  position: absolute;
+  left: 36px;
+  top:50%;
+  transform: translateY(-50%);
+}
+.connect .item .now{
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  background-color: #0091D6;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 40px;
+}

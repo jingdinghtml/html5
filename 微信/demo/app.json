@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/course/course",
+    "pages/connect/connect"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+        "color": "#666666",
+        "selectedColor": "#9ED1FB",
+    "list": [
+      {
+        "iconPath":"images/icon-index.png",
+        "selectedIconPath":"images/icon-index-active.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/icon-course.png",
+        "selectedIconPath": "images/icon-course-active.png",
+        "pagePath": "pages/course/course",
+        "text": "课程"
+      },
+      {
+        "iconPath": "images/icon-connect.png",
+        "selectedIconPath": "images/icon-connect-active.png",
+        "pagePath": "pages/connect/connect",
+        "text": "咨询"
+      }
+
+    ]
+  }
+}

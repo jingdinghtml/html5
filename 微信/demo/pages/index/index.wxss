@@ -1,0 +1,145 @@
+ .log-list {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  /* padding: 40rpx; */
+}
+.main {
+  background-color: #f3f3f3;
+} 
+swiper image{
+  width: 100%;
+}
+
+/* 中间四个class */
+.classify{
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+.classify .item{
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+
+}
+.classify .item image{
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 5px auto;
+}
+.classify .item text{
+  color: #999;
+  font-size: 26rpx;
+}
+/*师资团队  */
+.section{
+  margin-top: 10px;
+  background-color: #fff;
+}
+.section .section-title{
+  color: #71B9E5;
+  font-weight: bold;
+  padding: 10px;
+}
+.teacher .content{
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
+.teacher .content .item{
+  display: flex;
+}
+.teacher .content .item image{
+  flex: 1;
+  height: 100px;
+  margin-right: 20rpx;
+}
+.teacher .content .item .teacher-info{
+  flex: 2;
+}
+.teacher .content .item .teacher-info .intro{
+  font-size: 14px;
+  color: lightgray;
+  padding: 8px 20px 0 0; 
+  text-align: left;
+  /* text-indent: 0; */
+}
+.teacher .content .item .teacher-info .name{
+  font-size: 18px;
+  padding-top: 10px;
+}
+.teacher .content .item .teacher-info .name .post{
+  color: #71B9E5;
+  padding: 4px;
+  border: 1px solid #71B9E5;
+  border-radius: 40%;
+  font-size: 16rpx;
+  margin-left:4px; 
+}
+/*scroll-view  */
+.scroll-view{
+  white-space: nowrap; 
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background-color: white
+}
+.scroll-view .scroll-title{
+  color: #71B9E5;
+  font-weight: bold;
+  padding: 10px;
+
+}
+.scroll-view .item{
+  display: inline-block;
+  height: 150px;
+  width: 150px; 
+  background-color: #f3f3f3;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 26rpx;
+  color: lightgray;
+  border-radius: 5px;
+
+}
+ .scroll-view .item image{
+  display: block;
+  margin:15px auto 8px; 
+  width: 50px;
+  height: 50px;
+  border-radius:100%; 
+} 
+.scroll-view .item text:nth-of-type(1){
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #000;
+}
+.scroll-view .item text:nth-of-type(2){
+  display: block;
+  margin: 8px 0;
+  color: red;
+}
+/*校园环境  */
+.capus{
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.capus .capus-title{
+  color: #71B9E5;
+  font-weight: bold;
+  padding: 10px;
+}
+.capus .item{
+  display: flex;
+  padding: 0 10px 10px 0;
+
+}
+.capus .item image{
+  flex: 1;
+  margin-left: 10px;
+  height: 100px;
+}

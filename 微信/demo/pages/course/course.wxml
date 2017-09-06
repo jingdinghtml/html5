@@ -1,0 +1,26 @@
+
+<view class="course">
+  <view class="item">
+    <image src="../../images/bg-person.jpeg"></image>
+    <view class="table">课程详情</view>
+    <view class="table">立即报名</view>
+  </view>
+  <view class="item">
+  <image src="../../images/bg-h5.jpeg"></image>
+    <view class="table">课程详情</view>
+    <view class="table">立即报名</view>
+  </view>
+  <view class="item">
+  <image src="../../images/bg-java.jpeg"></image>
+    <view class="table">课程详情</view>
+    <view class="table">立即报名</view>
+  </view>
+  <view class="item">
+  <image src="../../images/bg-go.jpeg"></image>
+  
+     <view class="table">
+     <navigator url="http://www.baidu.com">课程详情</navigator>
+     </view> 
+    <view class="table">立即报名</view>
+  </view>
+</view>

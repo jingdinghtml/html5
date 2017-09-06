@@ -1,0 +1,142 @@
+<!--logs.wxml-->
+  <view class="main">
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item class="swiper">
+      <image src="{{item}}" class="slide-image" width="500" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="classify">
+    <view class="item">
+      <image src="../../images/icon-person.png"></image>
+      <text>复合人才</text>
+    </view>
+    <view class="item">
+      <image src="../../images/icon-h5.png"></image>
+      <text>HTML5</text>
+    </view>
+    <view class="item">
+      <image src="../../images/icon-java.png"></image>
+      <text>JAVA</text>
+    </view>
+    <view class="item">
+      <image src="../../images/icon-go.png"></image>
+      <text>GOLang</text>
+    </view>
+</view>
+<view class="teacher section">
+  <view class="section-title">师资团队</view>
+  <view class="content">
+    <view class="item">
+      <image src="../../images/7.jpeg"></image>
+      <view class="teacher-info">
+        <view class="name">
+          YUAN/袁林岗
+          <text class="post">校长</text>
+        </view>
+        <view class="intro">
+        框架为开发者提供了一系列基础组件，开发者可以通过组合这些基础组件进行快速开发
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="item">
+      <image src="../../images/7.jpeg"></image>
+      <view class="teacher-info">
+        <view class="name">
+          YUAN/袁林岗
+          <text class="post">校长</text>
+        </view>
+        <view class="intro">
+        框架为开发者提供了一系列基础组件，开发者可以通过组合这些基础组件进行快速开发
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="item">
+      <image src="../../images/7.jpeg"></image>
+      <view class="teacher-info">
+        <view class="name">
+          YUAN/袁林岗
+          <text class="post">校长</text>
+        </view>
+        <view class="intro">
+        框架为开发者提供了一系列基础组件，开发者可以通过组合这些基础组件进行快速开发
+       </view>
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="item">
+      <image src="../../images/7.jpeg"></image>
+      <view class="teacher-info">
+        <view class="name">
+          YUAN/袁林岗
+          <text class="post">校长</text>
+        </view>
+        <view class="intro">
+        框架为开发者提供了一系列基础组件，开发者可以通过组合这些基础组件进行快速开发
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+  <scroll-view class="scroll-view" scroll-x="true" >
+    <view class="scroll-title">就业明星</view>
+    <view class="item">
+      <image src="../../images/7.jpg"></image>
+      <text>华东</text>
+      <text>15K</text>
+      <text>广东亿通</text>
+    </view>
+    <view class="item">
+      <image src="../../images/7.jpg"></image>
+      <text>华东</text>
+      <text>15K</text>
+      <text>广东亿通</text>
+    </view>
+    <view class="item">
+      <image src="../../images/7.jpg"></image>
+      <text>华东</text>
+      <text>15K</text>
+      <text>广东亿通</text>
+    </view>
+    <view class="item">
+      <image src="../../images/7.jpg"></image>
+      <text>华东</text>
+      <text>15K</text>
+      <text>广东亿通</text>
+    </view>
+    <view class="item">
+      <image src="../../images/7.jpg"></image>
+      <text>华东</text>
+      <text>15K</text>
+      <text>广东亿通</text>
+    </view>
+    <view class="item">
+      <image src="../../images/7.jpg"></image>
+      <text>华东</text>
+      <text>15K</text>
+      <text>广东亿通</text>
+    </view>
+  </scroll-view>
+  <view class="capus">
+  <view class="capus-title">校园环境</view>
+  <view class="item">
+    <image src="../../images/7.jpg"></image>
+    <image src="../../images/7.jpg"></image>
+    <image src="../../images/7.jpg"></image>
+  </view>
+  <view class="item">
+    <image src="../../images/7.jpg"></image>
+    <image src="../../images/7.jpg"></image>
+    <image src="../../images/7.jpg"></image>
+  </view>
+</view>
+
+</view>
